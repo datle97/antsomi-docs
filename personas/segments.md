@@ -198,14 +198,74 @@ There are two options for the condition method that requires different settings
 
 * _**Perform event**_
 
+When creating a segment, users can leverage event data to define conditions. Various types of computations can be applied to event data to derive meaningful insights and segment users effectively.
+
+**1/ Event Counter**
+
+Counts the number of times a specific event occurs based on defined conditions.
+
+Example: Create a segment includes "Users who have made at least 3 purchases in the last 30 days."\
+→ Condition: Order Completed event count ≥ 3\
+
+
+**2/ Aggregation**\
+Uses event attributes to calculate aggregated values such as Min, Max, Sum, and Average.
+
+Examples: Using event attribute Order Value in event Purchase
+
+* Min: "Users whose lowest purchase value is below $10." → Condition: Minimum (Order Value) < 10
+* Max: "Users whose highest purchase value is over $500." → Condition: Maximum (Order Value) > 500
+* Sum: "Users who have spent at least $1000 in total." → Condition: Sum (Order Value) ≥ 1000
+* Average: "Users whose average purchase value is above $50." → Condition: Average (Order Value) > 50
+
+**3/ Most Frequent**\
+Identifies the most commonly occurring value in the event data.
+
+Example: Using event attribute Product Category in event Purchase
+
+"Users who most frequently purchase from category 'Electronics'."  → Condition: Most frequent (Product Category) = 'Electronics'\
+
+
+**4/ First Value**\
+Finds the first recorded value of a specific event attribute.
+
+Example: Using event attribute Product Category in event Purchase
+
+"Users whose first purchase category was 'Books'." → Condition: First (Product Category) = 'Books'\
+
+
+**5/ Last Value**\
+Finds the most recent value recorded for a specific event attribute.
+
+Example: Using event attribute Product Name in event Purchase
+
+"Users whose last purchased product was 'iPhone 15'." → Condition: Last (Product Name) = 'iPhone 15'\
+
+
+**6/ Unique Count**\
+Counts the number of distinct values in a list based on event attributes.
+
+Example: Using event attribute Product Category in event Purchase
+
+"Users who have purchased from at least 5 different product categories."  → Condition: Unique count (Product Category) ≥ 5
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+After choosing a computation type, there appears a box to choose a specific event to set as condition
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
 1. **Select event** is the interaction of visitors or customers. **Select event** includes 3 steps: select an event, select comparing method, and input value of comparison&#x20;
-2. **In any source of** is the domain where the event happened. After selecting an event, **CDP 365** will propose a list of sources that have the event
-3. **Where** is a filter of the selected event. **Where** could combine more than one event attribute by **AND** logic&#x20;
-4. **Time range** is the time in which the event occurred.&#x20;
+2. **Aggregation type:** Only appears if computation type is Aggregation to choose the type of calculation you want for selected event attribute
+3. **In any source of** is the domain where the event happened. After selecting an event, **CDP 365** will propose a list of sources that have the event
+4. **Where** is a filter of the selected event. **Where** could combine more than one event attribute by **AND** logic&#x20;
+5. **Time range** is the time in which the event occurred.&#x20;
 
 * _**Have attribute**_ is the attribute of customers or visitors, including steps: select attribute, select comparing method, and input the comparison value.
 
 _Could have more than one condition combined by **AND** and **OR** logic. If selecting an attribute or an event that isn't updated, CDP 365 will give a warning note._
+
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdM5GrzGg9EuWWiLrrTmDO9lUnUbmHaOiBfxJmjuOTtqBCpKl8eJ0ddtIa4doGVT4aoYwE_4nqhp-mNYLqWTFyP0mVQ7AZXMK7cLlbygd9VogcK7Hk2rYNpMvaMtbJ2VSVSnRAU29EH3SBhjbq-Me3O5wu0?key=nsg4PmgvSxrd7fjFkMggfQ" alt=""><figcaption></figcaption></figure>
 
