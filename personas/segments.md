@@ -249,11 +249,11 @@ Example: Using event attribute Product Category in event Purchase
 
 "Users who have purchased from at least 5 different product categories."  → Condition: Unique count (Product Category) ≥ 5
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 After choosing a computation type, there appears a box to choose a specific event to set as condition
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. **Select event** is the interaction of visitors or customers. **Select event** includes 3 steps: select an event, select comparing method, and input value of comparison&#x20;
 2. **Aggregation type:** Only appears if computation type is Aggregation to choose the type of calculation you want for selected event attribute

@@ -10,13 +10,13 @@ By default, if no IP addresses are configured, all accounts are allowed to conne
 
 ## II. Create a new IP address
 
-Navigate to the **IP Restriction** menu and click ![](<../.gitbook/assets/image (1) (1).png>)
+Navigate to the **IP Restriction** menu and click ![](<../.gitbook/assets/image (1) (1) (1).png>)
 
 In the **Create new IP address** popup:
 
 <table><thead><tr><th>Fields</th><th width="566">Description</th></tr></thead><tbody><tr><td>IP address</td><td>Enter a single IP, an IP range, or multiple IP addresses you want to restrict. For example:<br>- <strong>Single IP</strong>: 192.168.1.1<br>- <strong>IP range</strong>: 192.168.1.1 - 192.168.1.5<br>- <strong>Multiple IP addresses</strong>: 192.168.1.1, 192.168.1.3, 192.168.1.7 - 192.168.1.9</td></tr><tr><td>Description</td><td>Provide your description</td></tr><tr><td>Accounts</td><td>There are two options:<br>- <strong>All accounts</strong>: All accounts must use the IP addresses entered in the IP address field to access CDP 365.<br>- <strong>Specific accounts</strong>: Access restrictions apply only to the accounts specified.</td></tr></tbody></table>
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **For example**: enter '192.168.1.1' in the IP address field
 
