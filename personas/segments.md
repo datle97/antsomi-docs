@@ -249,11 +249,11 @@ Example: Using event attribute Product Category in event Purchase
 
 "Users who have purchased from at least 5 different product categories."  → Condition: Unique count (Product Category) ≥ 5
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 After choosing a computation type, there appears a box to choose a specific event to set as condition
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. **Select event** is the interaction of visitors or customers. **Select event** includes 3 steps: select an event, select comparing method, and input value of comparison&#x20;
 2. **Aggregation type:** Only appears if computation type is Aggregation to choose the type of calculation you want for selected event attribute
@@ -265,7 +265,7 @@ After choosing a computation type, there appears a box to choose a specific even
 
 _Could have more than one condition combined by **AND** and **OR** logic. If selecting an attribute or an event that isn't updated, CDP 365 will give a warning note._
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdM5GrzGg9EuWWiLrrTmDO9lUnUbmHaOiBfxJmjuOTtqBCpKl8eJ0ddtIa4doGVT4aoYwE_4nqhp-mNYLqWTFyP0mVQ7AZXMK7cLlbygd9VogcK7Hk2rYNpMvaMtbJ2VSVSnRAU29EH3SBhjbq-Me3O5wu0?key=nsg4PmgvSxrd7fjFkMggfQ" alt=""><figcaption></figcaption></figure>
 

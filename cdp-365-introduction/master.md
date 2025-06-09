@@ -24,7 +24,7 @@ Furthermore, CDP 365 provides modules to set up marketing automation scenarios l
 * Insights module makes reports and analyses based on the available data of customers in CDP 365 or data from first parties.&#x20;
 * Dataflows module sets and manages data processing automation. This module connects data from first parties, processes it by actions, and sends it to multi-destinations which could be in or out of CDP 365, demand using these processed data.&#x20;
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption><p>Relationship of CDP 365 modules</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption><p>Relationship of CDP 365 modules</p></figcaption></figure>
 
 ## How CDP 365 works
 
