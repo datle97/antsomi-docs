@@ -96,5 +96,7 @@ For **Scheduled Journeys** (campaigns triggered by a specific customer list or s
 {% hint style="warning" %}
 When you set a journey to Pause, Frozen, Abort, the system will stop processing any further steps (nodes) for audiences who are still in progress. However, if processes have already reached the destination node where a message is actually going to be sent, the system does not automatically stop or recall that message.
 
-👉 In case you need to urgently stop or recall messages that have already reached the sending stage, please reach out to the Antsomi technical team so we can help you handle it manually.
+👉 In case you need to urgently stop or recall messages that have already reached the sending stage, please reach out to the Antsomi technical team so we can help you handle it manually. See example below:
+
+<p align="center"><img src="../../.gitbook/assets/image (4152).png" alt="" data-size="original"></p>
 {% endhint %}
