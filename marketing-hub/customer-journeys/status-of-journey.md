@@ -57,7 +57,7 @@ For **Scheduled Journeys** (campaigns triggered by a specific customer list or s
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-* The campaign stops processing but **still allows new customers to enter**. Both new and current customers will pause their journey at the next step. This status is triggered when the user clicks **Pause**.
+* The campaign stops processing nodes but **still allows new customers to enter**. Both new and current customers will pause their journey at the next step. This status is triggered when the user clicks **Pause**.
 
 <figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -92,3 +92,9 @@ For **Scheduled Journeys** (campaigns triggered by a specific customer list or s
 * Aborted campaigns **cannot** be restored. If you want to run a similar campaign again, click **“Create a copy”** to start fresh.
 
 ***
+
+{% hint style="warning" %}
+When you set a journey to Pause, Frozen, Abort, the system will stop processing any further steps (nodes) for audiences who are still in progress. However, if processes have already reached the destination node where a message is actually going to be sent, the system does not automatically stop or recall that message.
+
+👉 In case you need to urgently stop or recall messages that have already reached the sending stage, please reach out to the Antsomi technical team so we can help you handle it manually.
+{% endhint %}
