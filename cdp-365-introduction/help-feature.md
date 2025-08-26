@@ -14,7 +14,7 @@ This feature locates on the right side of the horizontal header bar of CDP 365.
 
 After clicking on the icon ![](<../.gitbook/assets/image (2008).png>), the screen will show a pop-up with many options to choose:
 
-* _**New feature and announcement:**_ You will be directed to the[ Release Note](../) section of our User Guide which is a report published new or updated features with technical details.
+* _**New feature and announcement:**_ You will be directed to the[ Release Note](../use-cases/release-notes/) section of our User Guide which is a report published new or updated features with technical details.
 * _**Leave feedbacks:**_ You are able to send us your feedbacks, concerns and suggestions via ticket.
 * _**Get help:**_ Find quick instruction about functions on CDP 365
 * _**Get ideas with Antsomi Intelligence:**_ Let Antsomi Intelligence suggest you ideas about any topics that you are working on.

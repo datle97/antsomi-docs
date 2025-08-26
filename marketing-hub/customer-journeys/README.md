@@ -1,6 +1,6 @@
 # Customer Journeys
 
-[ Read more about the role of Customer Journeys in CDP operations](../../cdp-365-introduction/master.md#data-activation-omnichannel-marketing)
+[ Read more about the role of Customer Journeys in CDP operations](../../#data-activation-omnichannel-marketing)
 
 ## I - Introduction
 
