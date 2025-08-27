@@ -2,9 +2,7 @@
 
 {% embed url="https://app.gitbook.com/o/-LzunofLVjpTa_-p1PQt/s/mECwNqMNUmu6OXHSYgDv/quick-start-guide/how-to-create-attribute-for-customer-visitors" %}
 
-&#x20;1\. Log into the CDP 365 system. After logging in, look at the menu on the left hand side.
-
-&#x20;2\. Hover your mouse over **Data** → Choose **Data Objects**
+&#x20;1\. Hover your mouse over **Data** → Choose **Data Objects**
 
 <figure><img src="../../.gitbook/assets/image (102).png" alt=""><figcaption></figcaption></figure>
 
