@@ -39,7 +39,7 @@ Quy trình điển hình gồm các bước:
 
 <figure><img src="../../.gitbook/assets/System Search-Page-Detail.png" alt=""><figcaption></figcaption></figure>
 
-#### 🧩 **Ví dụ luồng hoạt động của hệ thống Search**
+#### **Ví dụ luồng hoạt động của hệ thống Search**
 
 Giả sử người dùng tìm kiếm từ khóa _**“thịt heo”**_ trên trang web:
 
