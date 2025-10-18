@@ -423,6 +423,8 @@
   * [Set up Dataflows to push data to a Business Object in CDP 365](use-cases/dataflows/set-up-dataflows-to-push-data-to-a-business-object-in-cdp-365.md)
   * [Set up Dataflows to push data to Google and Facebook Audiences](use-cases/dataflows/set-up-dataflows-to-push-data-to-google-and-facebook-audiences.md)
   * [How to upload segment data into Google Ad Manager (GAM) 360 using Dataflow?](use-cases/dataflows/how-to-upload-segment-data-into-google-ad-manager-gam-360-using-dataflow.md)
+* [Smart Seach](use-cases/smart-seach/README.md)
+  * [System Search](use-cases/smart-seach/system-search.md)
 * [Portal Settings](use-cases/portal-settings/README.md)
   * [How to set up two-step authentication?](use-cases/portal-settings/how-to-set-up-two-step-authentication.md)
 * [Release Notes](use-cases/release-notes/README.md)

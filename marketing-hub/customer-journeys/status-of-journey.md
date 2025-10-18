@@ -22,7 +22,7 @@
 
 #### **Active – Running**
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * The campaign is now active and running according to its designed flow.
 * This status is applied when the user clicks **Activate** and both the time conditions and audience settings are valid.
@@ -55,7 +55,7 @@ For **Scheduled Journeys** (campaigns triggered by a specific customer list or s
 
 #### **Paused – Temporarily On Hold (Still Accepting New Audience)**
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 * The campaign stops processing nodes but **still allows new customers to enter**. Both new and current customers will pause their journey at the next step. This status is triggered when the user clicks **Pause**.
 

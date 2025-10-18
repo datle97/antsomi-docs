@@ -10,7 +10,7 @@ By default, if no IP addresses are configured, all accounts are allowed to conne
 
 ## II. Create a new IP address
 
-Navigate to the **IP Restriction** menu and click ![](<../.gitbook/assets/image (1) (1) (1) (1).png>)
+Navigate to the **IP Restriction** menu and click ![](<../.gitbook/assets/image (1) (1) (1) (1) (1).png>)
 
 In the **Create new IP address** popup:
 
